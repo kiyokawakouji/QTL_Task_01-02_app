@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter',
               // https://api.flutter.dev/flutter/material/TextTheme/copyWith.html
+              // copyWithでテキストテーマのカラーを変更する
               style: Theme.of(context).textTheme.headline4?.copyWith(
               color: Colors.red,
             ),
